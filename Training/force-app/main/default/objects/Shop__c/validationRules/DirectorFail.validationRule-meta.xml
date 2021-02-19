@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>DirectorFail</fullName>
+    <active>true</active>
+    <errorConditionFormula>ISBLANK( Director__c )</errorConditionFormula>
+    <errorDisplayField>Director__c</errorDisplayField>
+    <errorMessage>U cant use null field</errorMessage>
+</ValidationRule>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Correct_Annual_Revenue</fullName>
+    <active>true</active>
+    <errorConditionFormula>Annual_Revenue__c &gt; 0</errorConditionFormula>
+    <errorDisplayField>Annual_Revenue__c</errorDisplayField>
+    <errorMessage>Annual Revenue can not be = 0</errorMessage>
+</ValidationRule>
